@@ -1,0 +1,46 @@
+.cours{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 50px) ;
+}
+
+.cours div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1,2em;
+    grid-gap: 10px;
+    border: 1px solid black;
+}
+
+.video{
+    background-color: aqua;
+}
+.veille{
+    background-color:cornflowerblue;
+}
+.projetFin{
+    background-color:darkcyan;
+}
+.stage{
+    background-color: coral;
+}
+.cours div:nth-child(1){
+    grid-area: 1/1/5/1;
+}
+.cours div:nth-child(2){
+    grid-area: 6/1/10/1;
+}
+.cours div:nth-child(3){
+    grid-area: 1/3/3/3;
+}
+.cours div:nth-child(4){
+    grid-area: 3/3/5/3;
+}
+.cours div:nth-child(5){
+    grid-area: 1/4/5/4;
+}
+.cours div:nth-child(6){
+    grid-area: 1/5/4/5;
+}
+.cours div:nth-child(7){
+    grid-area: 5/5/8/5;
+}
