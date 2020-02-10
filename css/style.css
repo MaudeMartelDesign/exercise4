@@ -5,6 +5,9 @@
       grid-template-columns: repeat(5, 1fr);
   -ms-grid-rows: (50px)[10];
       grid-template-rows: repeat(10, 50px);
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: 2/2/2/2;
 }
 
 .cours div {
@@ -92,5 +95,19 @@
   grid-gap: 10px;
   border: 1px solid black;
   text-align: center;
+}
+
+.heures {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (50px)[10];
+      grid-template-rows: repeat(10, 50px);
+}
+
+.heures div {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1,2em;
+  grid-gap: 10px;
+  border: 1px solid black;
 }
 /*# sourceMappingURL=style.css.map */
